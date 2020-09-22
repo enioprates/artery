@@ -1,0 +1,359 @@
+[ 16%] Built target traci
+[ 16%] Building INET (external dependency)
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-omit-frame-pointer -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/enio/omnetpp-5.6/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET_dbg.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvir_dbg -loppsim_dbg -ldl -lstdc++  -lOpenThreads -losg -losgText -losgDB -losgEarth -losgEarthUtil -Wl,-rpath,/home/enio/omnetpp-5.6/lib -Wl,-rpath,/lib -Wl,-rpath,.  -Wl,--export-dynamic -L/home/enio/omnetpp-5.6/lib
+Building...
+[ 16%] Built target build_inet
+[ 17%] Building Veins (external dependency)
+[ 17%] Built target build_veins
+[ 18%] Building Vanetza (external dependency)
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   date_time
+-- Cohda SDK not found (missing: COHDA_ROOT) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/enio/OneDrive/Cister/ROS/artery/extern/vanetza/build
+[ 80%] Built target asn1
+[ 81%] Built target common
+[ 83%] Built target net
+[ 90%] Built target security
+[ 92%] Built target dcc
+[ 97%] Built target geonet
+[ 98%] Built target btp
+[ 99%] Built target facilities
+[100%] Built target gnss
+[100%] Built target proxy_fake_feed
+[ 18%] Built target build_vanetza
+[ 65%] Built target core
+[ 77%] Built target envmod
+[ 82%] Built target police
+[100%] Built target storyboard
+OMNeT++ Discrete Event Simulation  (C) 1992-2019 Andras Varga, OpenSim Ltd.
+Version: 5.6, build: 200109-372130a193, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+See the license for distribution terms and warranty disclaimer
+
+Setting up Qtenv...
+
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/src/artery:  64
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/src/traci:  15
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/extern/veins/examples/veins:  1
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/extern/veins/src/veins:  38
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/extern/inet/src:  666
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/extern/inet/examples:  174
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/extern/inet/tutorials:  19
+Loading NED files from /home/enio/OneDrive/Cister/ROS/artery/extern/inet/showcases:  33
+
+Loading images from './bitmaps': *: 0 
+Loading images from './images': *: 0 
+Loading images from '/home/enio/omnetpp-5.6/images': *: 0  abstract/*: 90  background/*: 4  block/*: 320  device/*: 195  logo/*: 1  maps/*: 9  misc/*: 70  msg/*: 55  old/*: 111  status/*: 28 
+
+Sync
+ROSSyncApplication constructor
+ROS Main spinning on ROS
+MID
+VDP
+RobotMiddleware constructor
+MID
+VDP
+RobotMiddleware constructor
+ROSSyncApplication initialize 0
+RM advertises /car1/RXNetwork_OMNET
+RM advertises /car2/RXNetwork_OMNET
+ROSSyncApplication initialize 1
+Subscribing /clock topic
+----------------
+CaService::sendCam: 1
+ItsG5BaseService::request
+Middleware::request (2): 1
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 1
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 1
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Middleware::request (1): 1
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 1
+Ieee80211Mac::processUpperFrame - HCF
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 2
+ItsG5BaseService::request
+Middleware::request (2): 2
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 2
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 2
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 2
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 2
+Ieee80211Mac::processUpperFrame - HCF
+----------------
+CaService::sendCam: 3
+ItsG5BaseService::request
+Middleware::request (2): 3
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 3
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 3
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 4
+ItsG5BaseService::request
+Middleware::request (2): 4
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 4
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 4
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 3
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 3
+Ieee80211Mac::processUpperFrame - HCF
+----------------
+CaService::sendCam: 5
+ItsG5BaseService::request
+Middleware::request (2): 5
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 5
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 5
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 6
+ItsG5BaseService::request
+Middleware::request (2): 6
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 6
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 6
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 4
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 4
+Ieee80211Mac::processUpperFrame - HCF
+----------------
+CaService::sendCam: 7
+ItsG5BaseService::request
+Middleware::request (2): 7
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 7
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 7
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 8
+ItsG5BaseService::request
+Middleware::request (2): 8
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 8
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 8
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 5
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 5
+Ieee80211Mac::processUpperFrame - HCF
+----------------
+CaService::sendCam: 9
+ItsG5BaseService::request
+Middleware::request (2): 9
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 9
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 9
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 10
+ItsG5BaseService::request
+Middleware::request (2): 10
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 10
+Router::request - transmit immediately
+Router::request:Payload(L): 45
+Router::encap_packet
+Router::request:Payload(K): 0
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 2
+Router::pass_down:source: 0a:aa:00:00:00:01
+Router:pass_down_2 : 10
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Router::pass_down:Payload: END OF FUNCTION
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 6
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 6
+Ieee80211Mac::processUpperFrame - HCF
+PDU:pdu_cast: 
+Middleware::request (1): 7
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 7
+Ieee80211Mac::processUpperFrame - HCF
+PDU:pdu_cast: 
+Router::encap_packet
+Router::pass_down:Payload (0): 0
+Router::pass_down:Payload (0): ff:ff:ff:ff:ff:ff
+Router::pass_down:DCC_profile (0): 3
+Router::pass_down:source: 0a:aa:00:00:00:02
+Router:pass_down_2 : 10
+Router::pass_down:Payload (1): 0
+Router:pass_down_2: PDU_SECURED
+Router::pass_down:Payload (2): 0
+Router::pass_down:Payload: NETWORK
+Router::pass_down:Payload: Request Interface
+Middleware::request (1): 8
+Router::pass_down:Payload: END OF FUNCTION
+Ieee80211Mac::handleUpperPacket
+Ieee80211Mac::processUpperFrame - Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+Hcf::processUpperFrame: Frame GeoNet packet has been inserted into the PendingQueue.
+Contention::scheduleTransmissionRequest: 8
+Ieee80211Mac::processUpperFrame - HCF
+PDU:pdu_cast: 
+ROSSyncApplication destructor
+scenarios/CMakeFiles/run_gazebo-platoon.dir/build.make:57: recipe for target 'scenarios/CMakeFiles/run_gazebo-platoon' failed
+CMakeFiles/Makefile2:1077: recipe for target 'scenarios/CMakeFiles/run_gazebo-platoon.dir/all' failed
+CMakeFiles/Makefile2:1084: recipe for target 'scenarios/CMakeFiles/run_gazebo-platoon.dir/rule' failed
+Makefile:467: recipe for target 'run_gazebo-platoon' failed

@@ -1,0 +1,78 @@
+RAW DEFINITIONS ::=
+BEGIN
+
+    RAW ::= SEQUENCE {
+	header RAWHeader,
+	platoon    PlatoonPayload
+    }
+
+    RAWHeader ::= SEQUENCE {
+	rawstationID       RawStationID
+
+    }
+
+    PlatoonPayload ::= SEQUENCE {
+    carX                     CarID,
+    rawstationID                RawStationID,
+    rawsteeringWheelAngle       RawSteeringWheelAngle, 
+    rawheading                  RawHeading,
+    rawspeed                    RawSpeed,
+    xxCoords                 XX,
+    yyCoords                 YY,
+    zzCoords                 ZZ
+    }    
+
+    CarID ::= INTEGER {
+       car1 (1),
+       car2 (2),
+       car3 (3),     
+       unavailable (127)
+    } (1..127)
+
+    RawStationID ::= INTEGER (0..4294967295)
+
+    RawSteeringWheelAngle ::= INTEGER {
+	straight(0),
+	tenMiliRadiansToRight(-1),
+	tenMiliRadiansRadiansToLeft(1),
+	unavailable(512)
+    } (-511..512) 
+
+    RawHeading ::= INTEGER {
+	straight(0),
+	tenMiliRadiansRadiansToRight(-1),
+	tenMiliRadiansRadiansToLeft(1),
+	unavailable(512)
+    } (-511..512)
+
+    RawSpeed ::= INTEGER {
+	standstill(0),
+	oneCentimeterPerSec(1),
+	unavailable(16383)
+    } (0..16383) 
+
+    XX ::= INTEGER {
+    xAxis(0),
+	oneNegativeMilimeter(-1),
+    onePositiveMilimeter(1),
+	unavailable(2097151)
+    } (-2097150..2097151)  
+
+    YY ::= INTEGER {
+    yAxis(0),
+	oneNegativeMilimeter(-1),
+    onePositiveMilimeter(1),
+	unavailable(2097151)
+    } (-2097150..2097151)  
+
+    ZZ ::= INTEGER {
+    zAxis(0),
+	oneNegativeMilimeter(-1),
+    onePositiveMilimeter(1),
+	unavailable(2097151)
+    } (-2097150..2097151) 
+
+
+
+
+END
