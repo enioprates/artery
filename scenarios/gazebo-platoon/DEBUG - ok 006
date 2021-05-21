@@ -1,0 +1,244 @@
+** Event #1  t=0  World.syncNode.app (ROSSyncApplication, id=12)  on selfmsg @ROSSyncMessage@ (omnetpp::cMessage, id=0)
+
+** Event #2  t=0.018442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #3  t=0.018472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #4  t=0.028442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #5  t=0.028472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #6  t=0.038442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #7  t=0.038472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #8  t=0.048442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #9  t=0.048472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #10  t=0.058442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #11  t=0.058472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #12  t=0.068442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+WARN:CAM SENT 1,0.0684427,1804289383
+** Event #13  t=0.068442657441  World.car[0].radioDriver[0] (InetRadioDriver, id=16)  on GeoNet packet (GeoNetPacket, id=42)
+
+** Event #14  t=0.068442657441  World.car[0].wlan[0].mgmt (Ieee80211MgmtAdhoc, id=19)  on GeoNet packet (GeoNetPacket, id=42)
+
+INFO:Packet arrived from upper layers: (GeoNetPacket)GeoNet packet
+** Event #15  t=0.068442657441  World.car[0].wlan[0].mac (Ieee80211Mac, id=20)  on GeoNet packet (inet::ieee80211::Ieee80211DataFrameWithSNAP, id=43)
+
+INFO:Frame (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet received from higher layer, receiver = FF-FF-FF-FF-FF-FF
+INFO (Hcf)World.car[0].wlan[0].mac.hcf:Processing upper frame: GeoNet packet
+INFO (Hcf)World.car[0].wlan[0].mac.hcf:The upper frame has been classified as a Best effort frame.
+INFO (Hcf)World.car[0].wlan[0].mac.hcf:Frame GeoNet packet has been inserted into the PendingQueue.
+DETAIL (Hcf)World.car[0].wlan[0].mac.hcf:Requesting channel for access category Best effort
+DETAIL (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:Starting contention: cw = 15, slots = 9
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:handleWithFSM: processing event START
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: leaving state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: condition "(event == START && mediumFree)" holds, taking transition "Starting-IFS-and-Backoff" to state IFS_AND_BACKOFF
+INFO (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:backoffslots = 9 slotTime = 0.000013
+INFO (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:lastBusyTime = 0 lastIdle = -4611686.018427387903
+INFO (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:waitInterval = 0
+INFO (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:The expected channel access of the Best effort queue is: 0.068442657441
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: done processing associated actions
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: entering state IFS_AND_BACKOFF
+** Event #16  t=0.068442657441  World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention (Contention, id=67)  on selfmsg startTx (omnetpp::cMessage, id=8)
+
+DEBUG:handleWithFSM: processing event CHANNEL_ACCESS_GRANTED
+DEBUG:FSM Backoff procedure: processing event in state IFS_AND_BACKOFF
+DEBUG:FSM Backoff procedure: leaving state IFS_AND_BACKOFF
+DEBUG:FSM Backoff procedure: condition "(event == CHANNEL_ACCESS_GRANTED)" holds, taking transition "Backoff-expired" to state IDLE
+DEBUG:FSM Backoff procedure: done processing associated actions
+DEBUG:FSM Backoff procedure: entering state IDLE
+** Event #17  t=0.068442657441  World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention (Contention, id=67)  on selfmsg channelGranted (omnetpp::cMessage, id=9)
+
+INFO:Channel granted: contention started at 0.068442657441
+DETAIL:Channel access granted to the Best effort queue
+INFO:Transmitting, frame = (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet
+** Event #18  t=0.068442657441  World.car[0].wlan[0].mac.tx (Tx, id=28)  on selfmsg endIFS (omnetpp::cMessage, id=16)
+
+DETAIL:Tx: endIfsTimer expired
+** Event #19  t=0.068442657441  World.car[0].wlan[0].radio (Ieee80211ScalarRadio, id=21)  on configureRadioMode (omnetpp::cMessage, id=47)
+
+INFO:Radio mode changed from RECEIVER to TRANSMITTER
+INFO:Changing radio reception state from IDLE to UNDEFINED.
+DEBUG (Contention)World.car[0].wlan[0].mac.dcf.channelAccess.contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[0].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[2].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[3].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+INFO:Changing radio transmission state from UNDEFINED to IDLE.
+** Event #20  t=0.068442657441  World.car[0].wlan[0].radio (Ieee80211ScalarRadio, id=21)  on GeoNet packet (inet::ieee80211::Ieee80211DataFrameWithSNAP, id=45)
+
+DEBUG:Sending (inet::physicallayer::RadioFrame)GeoNet packet with 2960 bits in 544 us transmission duration from (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } on (inet::physicallayer::RadioMedium)radioMedium, propagation = { ConstantSpeedPropagation }, pathLoss = { FreeSpacePathLoss }, analogModel = { ScalarAnalogModel }, obstacleLoss = nullptr, backgroundNoise = { IsotropicScalarBackgroundNoise, power = 1e-14 W }, mediumLimitCache = { RadioMediumLimits }, neighborCache = nullptr, communicationCache = { VectorCommunicationCache }.
+DEBUG:Sending (inet::physicallayer::RadioFrame)GeoNet packet from (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } at (1150.23, 345.833, 1.00031) to (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } at (1140.68, 345.689, 1.00031) in 0.031881 us propagation time.
+INFO:Transmission started: (inet::physicallayer::RadioFrame)GeoNet packet WHOLE as Ieee80211ScalarTransmission, mode = { Ieee80211OFDMMode, preambleMode = { Ieee80211OFDMPreambleMode }, signalMode = { Ieee80211OFDMSignalMode }, dataMode = { Ieee80211OFDMDataMode, netBitrate = 6e+06 bps } }, channel = { Ieee80211Channel, channelNumber = 180 }, power = 0.2 W, bitrate = 6e+06 bps, headerBitLength = 24, payloadBitLength = 2960, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, modulation = { BPSKModulation }, id = 0, transmitterId = 0, startTime = 0.068442657441, endTime = 0.068986657441, startPosition = (1150.23, 345.833, 1.00031), preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, endPosition = (1150.23, 345.833, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0)
+INFO:Changing radio transmission state from IDLE to TRANSMITTING.
+INFO:Changing radio transmitted signal part from NONE to WHOLE.
+** Event #21  t=0.068442689322  World.car[1].wlan[0].radio (Ieee80211ScalarRadio, id=84)  on GeoNet packet (inet::physicallayer::RadioFrame, id=49)
+
+DEBUG:Receiving Ieee80211ScalarTransmission, mode = { Ieee80211OFDMMode, preambleMode = { Ieee80211OFDMPreambleMode }, signalMode = { Ieee80211OFDMSignalMode }, dataMode = { Ieee80211OFDMDataMode, netBitrate = 6e+06 bps } }, channel = { Ieee80211Channel, channelNumber = 180 }, power = 0.2 W, bitrate = 6e+06 bps, headerBitLength = 24, payloadBitLength = 2960, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, modulation = { BPSKModulation }, id = 0, transmitterId = 0, startTime = 0.068442657441, endTime = 0.068986657441, startPosition = (1150.23, 345.833, 1.00031), preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, endPosition = (1150.23, 345.833, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0) from medium by (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } arrives as ScalarReception, power = 3.57964e-08 W, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, transmissionId = 0, receiverId = 1, startTime = 0.068442689322, endTime = 0.068986689322, preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, startPosition = (1140.68, 345.689, 1.00031), endPosition = (1140.68, 345.689, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0)
+DEBUG:Computing whether reception is possible: minimum reception power = 3.57964e-08 W, sensitivity = 6.30957e-12 W -> reception is possible
+INFO:Reception started: attempting (inet::physicallayer::RadioFrame)GeoNet packet WHOLE as ScalarReception, power = 3.57964e-08 W, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, transmissionId = 0, receiverId = 1, startTime = 0.068442689322, endTime = 0.068986689322, preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, startPosition = (1140.68, 345.689, 1.00031), endPosition = (1140.68, 345.689, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0)
+INFO:Changing radio reception state from IDLE to RECEIVING.
+DEBUG (Contention)World.car[1].wlan[0].mac.dcf.channelAccess.contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[0].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[1].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[2].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[3].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+INFO:Changing radio received signal part from NONE to WHOLE.
+** Event #22  t=0.068472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #23  t=0.068986657441  World.car[0].wlan[0].radio (Ieee80211ScalarRadio, id=21)  on selfmsg transmissionTimer (omnetpp::cMessage, id=18)
+
+INFO:Transmission ended: (inet::physicallayer::RadioFrame)GeoNet packet WHOLE as Ieee80211ScalarTransmission, mode = { Ieee80211OFDMMode, preambleMode = { Ieee80211OFDMPreambleMode }, signalMode = { Ieee80211OFDMSignalMode }, dataMode = { Ieee80211OFDMDataMode, netBitrate = 6e+06 bps } }, channel = { Ieee80211Channel, channelNumber = 180 }, power = 0.2 W, bitrate = 6e+06 bps, headerBitLength = 24, payloadBitLength = 2960, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, modulation = { BPSKModulation }, id = 0, transmitterId = 0, startTime = 0.068442657441, endTime = 0.068986657441, startPosition = (1150.23, 345.833, 1.00031), preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, endPosition = (1150.23, 345.833, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0)
+INFO:Changing radio transmission state from TRANSMITTING to IDLE.
+DETAIL (Tx)World.car[0].wlan[0].mac.tx:Tx: radioTransmissionFinished()
+INFO (Tx)World.car[0].wlan[0].mac.tx:Frame sequence finished
+DEBUG (Ieee80211Mac)World.car[0].wlan[0].mac:changing radio to receiver mode
+INFO:Changing radio transmitted signal part from WHOLE to NONE.
+** Event #24  t=0.068986657441  World.car[0].wlan[0].radio (Ieee80211ScalarRadio, id=21)  on configureRadioMode (omnetpp::cMessage, id=53)
+
+INFO:Radio mode changed from TRANSMITTER to RECEIVER
+TRACE:Noise power begin
+TRACE:Noise at 0.068986657441 = 1e-14 W
+TRACE:Noise at 0.068986657442 = 0 W
+TRACE:Noise power end
+DEBUG:Computing whether listening is possible: maximum power = 1e-14 W, energy detection = 3.16228e-12 W -> listening is impossible
+DEBUG:Listening with BandListening, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, receiverId = 0, startTime = 0.068986657441, endTime = 0.068986657442, startPosition = (1150.23, 345.832, 1.00031), endPosition = (1150.23, 345.832, 1.00031) on medium by (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } results in ListeningDecision, impossible, listening = { BandListening, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz }
+INFO:Changing radio reception state from UNDEFINED to IDLE.
+INFO:Changing radio transmission state from IDLE to UNDEFINED.
+DEBUG (Contention)World.car[0].wlan[0].mac.dcf.channelAccess.contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[0].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[2].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[3].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[0].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+** Event #25  t=0.068986689322  World.car[1].wlan[0].radio (Ieee80211ScalarRadio, id=84)  on selfmsg receptionTimer (omnetpp::cMessage, id=51)
+
+TRACE:Noise power begin
+TRACE:Noise at 0.068442689322 = 1e-14 W
+TRACE:Noise at 0.068986689322 = 0 W
+TRACE:Noise power end
+DEBUG:Computing whether reception is possible: minimum reception power = 3.57964e-08 W, sensitivity = 6.30957e-12 W -> reception is possible
+DEBUG:Computing whether reception is possible: minimum reception power = 3.57964e-08 W, sensitivity = 6.30957e-12 W -> reception is possible
+INFO (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:bpsk snr=3.57964e+06 ber=0
+DEBUG (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:Min SNIR = 3.57964e+06, bit length = 24, header error rate = 0
+INFO (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:qpsk snr=3.57964e+06 ber=0
+DEBUG (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:Min SNIR = 3.57964e+06, bit length = 2960, data error rate = 0
+DEBUG:Receiving Ieee80211ScalarTransmission, mode = { Ieee80211OFDMMode, preambleMode = { Ieee80211OFDMPreambleMode }, signalMode = { Ieee80211OFDMSignalMode }, dataMode = { Ieee80211OFDMDataMode, netBitrate = 6e+06 bps } }, channel = { Ieee80211Channel, channelNumber = 180 }, power = 0.2 W, bitrate = 6e+06 bps, headerBitLength = 24, payloadBitLength = 2960, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, modulation = { BPSKModulation }, id = 0, transmitterId = 0, startTime = 0.068442657441, endTime = 0.068986657441, startPosition = (1150.23, 345.833, 1.00031), preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, endPosition = (1150.23, 345.833, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0) from medium by (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } arrives as ScalarReception, power = 3.57964e-08 W, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, transmissionId = 0, receiverId = 1, startTime = 0.068442689322, endTime = 0.068986689322, preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, startPosition = (1140.68, 345.689, 1.00031), endPosition = (1140.68, 345.689, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0) and results in ReceptionDecision, possible, attempted, successful
+INFO:Reception ended: successfully for (inet::physicallayer::RadioFrame)GeoNet packet WHOLE as ScalarReception, power = 3.57964e-08 W, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, transmissionId = 0, receiverId = 1, startTime = 0.068442689322, endTime = 0.068986689322, preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, startPosition = (1140.68, 345.689, 1.00031), endPosition = (1140.68, 345.689, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0)
+INFO (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:bpsk snr=3.57964e+06 ber=0
+DEBUG (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:Min SNIR = 3.57964e+06, bit length = 24, header error rate = 0
+INFO (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:qpsk snr=3.57964e+06 ber=0
+DEBUG (Ieee80211NistErrorModel)World.car[1].wlan[0].radio.receiver.errorModel:Min SNIR = 3.57964e+06, bit length = 2960, data error rate = 0
+DEBUG:Receiving Ieee80211ScalarTransmission, mode = { Ieee80211OFDMMode, preambleMode = { Ieee80211OFDMPreambleMode }, signalMode = { Ieee80211OFDMSignalMode }, dataMode = { Ieee80211OFDMDataMode, netBitrate = 6e+06 bps } }, channel = { Ieee80211Channel, channelNumber = 180 }, power = 0.2 W, bitrate = 6e+06 bps, headerBitLength = 24, payloadBitLength = 2960, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, modulation = { BPSKModulation }, id = 0, transmitterId = 0, startTime = 0.068442657441, endTime = 0.068986657441, startPosition = (1150.23, 345.833, 1.00031), preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, endPosition = (1150.23, 345.833, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0) from medium by (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } arrives as ScalarReception, power = 3.57964e-08 W, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, transmissionId = 0, receiverId = 1, startTime = 0.068442689322, endTime = 0.068986689322, preambleDuration = 0.000032, headerPosition = 0.000008, dataPosition = 0.000504, startPosition = (1140.68, 345.689, 1.00031), endPosition = (1140.68, 345.689, 1.00031), startOrientation = (0, 0, 0), endOrientation = (0, 0, 0) and results in ReceptionResult, indication = 0x55e1d5d65120
+INFO:Sending up (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet
+WARN:INTERF TRANSMISSION  1
+TRACE:Noise power begin
+TRACE:Noise at 0.068986689322 = 1e-14 W
+TRACE:Noise at 0.068986689323 = 0 W
+TRACE:Noise power end
+DEBUG:Computing whether listening is possible: maximum power = 1e-14 W, energy detection = 3.16228e-12 W -> listening is impossible
+DEBUG:Listening with BandListening, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz, receiverId = 1, startTime = 0.068986689322, endTime = 0.068986689323, startPosition = (1140.67, 345.688, 1.00031), endPosition = (1140.67, 345.688, 1.00031) on medium by (inet::physicallayer::Ieee80211Radio)radio, antenna = { IsotropicAntenna }, transmitter = { Ieee80211ScalarTransmitter, mode = { Ieee80211OFDMMode, dataMode = { Ieee80211OFDMDataMode } }, channel = { Ieee80211Channel, channelNumber = 180 } }, receiver = { Ieee80211ScalarReceiver, channel = { Ieee80211Channel, channelNumber = 180 }, energyDetection = 3.16228e-12 W, sensitivity = 6.30957e-12 W } results in ListeningDecision, impossible, listening = { BandListening, carrierFrequency = 5.9e+09 Hz, bandwidth = 1e+07 Hz }
+INFO:Changing radio reception state from RECEIVING to IDLE.
+DEBUG (Contention)World.car[1].wlan[0].mac.dcf.channelAccess.contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.dcf.channelAccess.contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[0].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[0].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[1].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[1].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[2].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[2].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[3].contention:handleWithFSM: processing event MEDIUM_STATE_CHANGED
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: processing event in state IDLE
+DEBUG (Contention)World.car[1].wlan[0].mac.hcf.edca.edcaf[3].contention:FSM Backoff procedure: condition "event==MEDIUM_STATE_CHANGED" holds, staying in current state
+INFO:Changing radio received signal part from WHOLE to NONE.
+** Event #26  t=0.068986689322  World.car[1].wlan[0].mac (Ieee80211Mac, id=83)  on GeoNet packet (inet::ieee80211::Ieee80211DataFrameWithSNAP, id=55)
+
+INFO (VanetRx)World.car[1].wlan[0].mac.rx:Received frame from PHY: (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet
+** Event #27  t=0.068986689322  World.car[1].wlan[0].mgmt (Ieee80211MgmtAdhoc, id=82)  on GeoNet packet (inet::ieee80211::Ieee80211DataFrameWithSNAP, id=55)
+
+INFO:Frame arrived from MAC: (inet::ieee80211::Ieee80211DataFrameWithSNAP)GeoNet packet
+** Event #28  t=0.068986689322  World.car[1].radioDriver[0] (InetRadioDriver, id=79)  on GeoNet packet (GeoNetPacket, id=56)
+
+** Event #29  t=0.068986689322  World.car[1].middleware (RobotMiddleware, id=80)  on GeoNet packet (GeoNetPacket, id=56)
+
+WARN:CAM RECEPTION: 1
+WARN:station ID:1804289383
+WARN:speed:0.02
+WARN:heading:1.6057
+WARN:N_message:1
+WARN:0.0689867
+** Event #30  t=0.078442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #31  t=0.078472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #32  t=0.078986689322  World.radioMedium (Ieee80211ScalarRadioMedium, id=2)  on selfmsg removeNonInterferingTransmissions (omnetpp::cMessage, id=1)
+
+DEBUG:Removing 1 non interfering transmissions
+** Event #33  t=0.088442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #34  t=0.088472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #35  t=0.098442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #36  t=0.098472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #37  t=0.1  World.car[0].wlan[0].mac.rx (VanetRx, id=27)  on selfmsg report CL (omnetpp::cMessage, id=15)
+
+** Event #38  t=0.1  World.car[1].wlan[0].mac.rx (VanetRx, id=90)  on selfmsg report CL (omnetpp::cMessage, id=34)
+
+** Event #39  t=0.108442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #40  t=0.108472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #41  t=0.118442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+** Event #42  t=0.118472517373  World.car[1].middleware (RobotMiddleware, id=80)  on selfmsg middleware update (omnetpp::cMessage, id=38)
+
+** Event #43  t=0.128442657441  World.car[0].middleware (RobotMiddleware, id=17)  on selfmsg middleware update (omnetpp::cMessage, id=19)
+
+WARN:CAM SENT 2,0.128443,1804289383
+** Event #44  t=0.128442657441  World.car[0].radioDriver[0] (InetRadioDriver, id=16)  on GeoNet packet (GeoNetPacket, id=57)
+
+** Event #45  t=0.128442657441  World.car[0].wlan[0].mgmt (Ieee80211MgmtAdhoc, id=19)  on GeoNet packet (GeoNetPacket, id=57)
+
+INFO:Packet arrived from upper layers: (GeoNetPacket)GeoNet packet

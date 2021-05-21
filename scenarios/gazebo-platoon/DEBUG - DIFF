@@ -1,0 +1,6 @@
+** Event #37  t=0.1  World.car[0].wlan[0].mac.rx (VanetRx, id=27)  on selfmsg report CL (omnetpp::cMessage, id=15)
+
+** Event #38  t=0.1  World.car[1].wlan[0].mac.rx (VanetRx, id=90)  on selfmsg report CL (omnetpp::cMessage, id=34)
+
+
+Event #43  t=0.118442  World.car[0].radioDriver[0] (InetRadioDriver, id=16)  on GeoNet packet (GeoNetPacket, id=57)

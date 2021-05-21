@@ -1,0 +1,181 @@
+----------------
+CaService::sendCam: 1 , 0.0584427
+ItsG5BaseService::request
+Middleware::request (2): 1 , 0.0584427
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 1
+Router:pass_down_2: PDU_SECURED
+Middleware::request (1): 1 , 0.0584427
+Middleware::request::mGeoRouter->request (B2)
+Ieee80211MgmtBase::handleMessage: 1
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.0584427
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 1
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 2
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 2 , 0.108443
+ItsG5BaseService::request
+Middleware::request (2): 2 , 0.108443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 2
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 2 , 0.118442
+Ieee80211MgmtBase::handleMessage: 3
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.118442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 2
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 4
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 3 , 0.158443
+ItsG5BaseService::request
+Middleware::request (2): 3 , 0.158443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 3
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 3 , 0.178442
+Ieee80211MgmtBase::handleMessage: 5
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.178442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 3
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 6
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 4 , 0.208443
+ItsG5BaseService::request
+Middleware::request (2): 4 , 0.208443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 4
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 4 , 0.238442
+Ieee80211MgmtBase::handleMessage: 7
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.238442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 4
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 8
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 5 , 0.258443
+ItsG5BaseService::request
+Middleware::request (2): 5 , 0.258443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 5
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 5 , 0.298442
+Ieee80211MgmtBase::handleMessage: 9
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.298442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 5
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 10
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 6 , 0.308443
+ItsG5BaseService::request
+Middleware::request (2): 6 , 0.308443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 6
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 6 , 0.358442
+Ieee80211MgmtBase::handleMessage: 11
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.358442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 6
+Ieee80211Mac::processUpperFrame - HCF
+----------------
+CaService::sendCam: 7 , 0.358443
+ItsG5BaseService::request
+Middleware::request (2): 7 , 0.358443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 7
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Ieee80211MgmtBase::handleMessage: 12
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+Router:pass_down_2: PDU_SECURED
+Middleware::request (1): 7 , 0.406431
+Ieee80211MgmtBase::handleMessage: 13
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.406431
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 7
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 14
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 8 , 0.408443
+ItsG5BaseService::request
+Middleware::request (2): 8 , 0.408443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 8
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 8 , 0.418442
+Ieee80211MgmtBase::handleMessage: 15
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.418442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 8
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 16
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 9 , 0.458443
+ItsG5BaseService::request
+Middleware::request (2): 9 , 0.458443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 9
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 9 , 0.478442
+Ieee80211MgmtBase::handleMessage: 17
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.478442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 9
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 18
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+----------------
+CaService::sendCam: 10 , 0.508443
+ItsG5BaseService::request
+Middleware::request (2): 10 , 0.508443
+Middleware::request::mGeoRouter->request (B1)
+Router:request : 10
+Router:pass_down_2: PDU_SECURED
+Middleware::request::mGeoRouter->request (B2)
+Middleware::request (1): 10 , 0.538442
+Ieee80211MgmtBase::handleMessage: 19
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.538442
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 10
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 20
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+Middleware::request (1): 11 , 0.598443
+Ieee80211MgmtBase::handleMessage: 21
+Ieee80211MgmtBase::handleMessage: Packet arrived from upper layers: (GeoNetPacket)GeoNet packet,0.598443
+Ieee80211Mac::handleUpperPacket
+Contention::scheduleTransmissionRequest: 11
+Ieee80211Mac::processUpperFrame - HCF
+Ieee80211MgmtBase::handleMessage: 22
+Ieee80211MgmtBase::handleMessage: (3)
+PDU:pdu_cast: 
+
